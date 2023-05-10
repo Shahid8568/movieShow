@@ -1,0 +1,55 @@
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.showBox{
+    margin:30px 20px;
+}
+
+.showImg{
+    height: 50vh;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1024px) {
+    .showBox {
+        margin: 12px 0px;
+    }
+}
+@media screen and (max-width: 912px) {
+        .showBox{
+            margin:30px 70px;
+        }
+    
+}
+@media screen and (max-width: 820px) {
+        .showBox{
+            margin:22px;
+        }
+    
+}
+@media screen and (max-width: 540px) {
+    .showBox{
+        margin: 15px 130px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .showBox{
+        margin:30px;
+    }
+
+}
+@media screen and (max-width:280px) {
+    .card{
+        width: 16rem !important;
+    }
+    .showBox{
+        margin:10px 0;
+    }
+
+}
+
+
+
